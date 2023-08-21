@@ -1,0 +1,68 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Lastwaerk black', sans-serif;
+}
+body{
+    background: url('img/temple-1166023_1280.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+#container{
+    position: absolute;
+    top: 29%;
+    left: 37%;
+    height: 272px;
+    width: 489px;
+    
+}
+
+#container h1{
+    text-align: center;
+    margin: 5px 5px 22px 5px;
+    color: #63adc6;
+    border-bottom: 5px solid #e8e873;
+}
+
+#user{
+
+    margin: 37px 0px 12px 16px;
+}
+#pass{
+ 
+    margin: 0px 0px 12px 16px;
+}
+div input{
+   background: none;
+    margin: 3px 0px 12px 9px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    border-bottom: 5px solid #c15959;
+    height: 19px;
+    width: 222px;
+    border-radius: 6px;
+    
+}
+::placeholder { 
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+}
+
+#btn1{
+    height: 28px;
+    width: 78px;
+    border-radius: 9px;
+    margin-left: 44px;
+    font-size: 13px;
+    background-color: #e09289;
+}
+
+#btn1:hover{
+    height: 28px;
+    width: 78px;
+    border-radius: 9px;
+    margin-left: 44px;
+    font-size: 15px;
+    background-color: #d46155;
+}
